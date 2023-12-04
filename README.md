@@ -49,12 +49,12 @@ Place your X-ray images in the dataset-comparison-2000 directory, organizing the
 
 The project evaluates multiple deep learning models for the classification task. Here are the accuracy results on the test dataset for each model:
 
-- ResNet50: {resnet50_test_accu[1]*100:.2f}%
-- VGG16: {vgg16_test_accu[1]*100:.2f}%
-- NASNetMobile: {nasnetmobile_test_accu[1]*100:.2f}%
-- DenseNet121: {densenet_test_accu[1]*100:.2f}%
-- MobileNet: {mobilenet_test_accu[1]*100:.2f}%
-- Custom CNN: {customcnn_test_accu[1]*100:.2f}%
+- ResNet50: {95.99}%
+- VGG16: {98.50}%
+- NASNetMobile: {91.50}%
+- DenseNet121: {98.50}%
+- MobileNet: {93.00}%
+- Custom CNN: {97.50}%
 
 ## Acknowledgments
 
