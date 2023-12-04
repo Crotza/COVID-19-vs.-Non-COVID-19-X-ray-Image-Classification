@@ -1,0 +1,117 @@
+Training Report
+------------------------------ # ------------------------------
+Dataset:
+
+Found 1600 images belonging to 2 classes.
+Found 200 images belonging to 2 classes.
+Found 400 images belonging to 2 classes.
+
+------------------------------ # ------------------------------
+Training ResNet50...
+
+Total training time for ResNet50: 487.02 seconds
+ResNet50 Testing Accuracy: 95.99999785423279%
+
+Confusion Matrix for ResNet50:
+[[94 6]
+[ 2 98]]
+
+NORMAL: 94 true positives, 6 false positives
+COVID: 2 false negatives, 98 true negatives
+
+Classification Report for ResNet50:
+
+NORMAL: Precision 0.98, Recall 0.94, F1-Score 0.96
+COVID: Precision 0.94, Recall 0.98, F1-Score 0.96
+Accuracy: 0.96
+------------------------------ # ------------------------------
+Training VGG16...
+
+Total training time for VGG16: 253.82 seconds
+VGG16 Testing Accuracy: 98.50000143051147%
+
+Confusion Matrix for VGG16:
+[[ 97 3]
+[ 0 100]]
+
+NORMAL: 97 true positives, 3 false positives
+COVID: 0 false negatives, 100 true negatives
+
+Classification Report for VGG16:
+
+NORMAL: Precision 1.00, Recall 0.97, F1-Score 0.98
+COVID: Precision 0.97, Recall 1.00, F1-Score 0.99
+Accuracy: 0.98
+------------------------------ # ------------------------------
+Training NASNetMobile...
+
+Total training time for NASNetMobile: 161.95 seconds
+NASNetMobile Testing Accuracy: 91.50000214576721%
+
+Confusion Matrix for NASNetMobile:
+[[84 16]
+[ 1 99]]
+
+NORMAL: 84 true positives, 16 false positives
+COVID: 1 false negative, 99 true negatives
+
+Classification Report for NASNetMobile:
+
+NORMAL: Precision 0.99, Recall 0.84, F1-Score 0.91
+COVID: Precision 0.86, Recall 0.99, F1-Score 0.92
+Accuracy: 0.92
+------------------------------ # ------------------------------
+Training DenseNet121...
+
+Total training time for DenseNet121: 169.64 seconds
+DenseNet121 Testing Accuracy: 98.50000143051147%
+
+Confusion Matrix for DenseNet121:
+[[99 1]
+[ 2 98]]
+
+NORMAL: 99 true positives, 1 false positive
+COVID: 2 false negatives, 98 true negatives
+
+Classification Report for DenseNet121:
+
+NORMAL: Precision 0.98, Recall 0.99, F1-Score 0.99
+COVID: Precision 0.99, Recall 0.98, F1-Score 0.98
+Accuracy: 0.98
+------------------------------ # ------------------------------
+Training MobileNet...
+
+Total training time for MobileNet: 137.76 seconds
+MobileNet Testing Accuracy: 93.00000071525574%
+
+Confusion Matrix for MobileNet:
+[[88 12]
+[ 2 98]]
+
+NORMAL: 88 true positives, 12 false positives
+COVID: 2 false negatives, 98 true negatives
+
+Classification Report for MobileNet:
+
+NORMAL: Precision 0.98, Recall 0.88, F1-Score 0.93
+COVID: Precision 0.89, Recall 0.98, F1-Score 0.93
+Accuracy: 0.93
+------------------------------ # ------------------------------
+Training Custom CNN...
+
+Total training time for Custom CNN: 219.24 seconds
+Custom CNN Testing Accuracy: 97.50000238418579%
+
+Confusion Matrix for Custom CNN:
+[[98 2]
+[ 3 97]]
+
+NORMAL: 98 true positives, 2 false positives
+COVID: 3 false negatives, 97 true negatives
+
+Classification Report for Custom CNN:
+
+NORMAL: Precision 0.97, Recall 0.98, F1-Score 0.98
+COVID: Precision 0.98, Recall 0.97, F1-Score 0.97
+Accuracy: 0.97
+------------------------------ # ------------------------------
